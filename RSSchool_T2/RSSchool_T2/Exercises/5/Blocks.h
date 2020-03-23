@@ -9,5 +9,6 @@ typedef void (^BlockC)(NSObject *result);
 @property (nonatomic) BlockA blockA;
 @property (nonatomic) BlockB blockB;
 @property (nonatomic) BlockC blockC;
+@property (nonatomic, strong) NSArray *array;
 
 @end
